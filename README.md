@@ -23,9 +23,9 @@ Define as operações básicas que os agentes precisam implementar, como atualiz
 
 State
 Define a estrutura dos estados da máquina:
-enter() — executado quando o agente entra em um estado;
-execute() — executado durante a permanência no estado;
-leave() — executado quando o agente sai do estado.
+enter() executado quando o agente entra em um estado;
+execute() executado durante a permanência no estado;
+leave() executado quando o agente sai do estado.
 
 AbstractState
 Implementa uma estrutura básica para os estados e mantém uma referência ao agente associado.
